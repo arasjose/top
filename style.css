@@ -4027,6 +4027,7 @@ border-top-left-radius: 15px;
     border-top: 1px solid rgb(0 0 0 / 25%);
     height: 7%;
     margin-top: 0%;
+    z-index: 0;
 }
 
 
@@ -4186,6 +4187,10 @@ section #book1.contactForm {
 
 header label img{
 visibility: visible;
+}
+
+.headngform{
+    background: transparent;
 }
 
 .swiper-backface-hidden .swiper-slide.card{
@@ -4558,17 +4563,18 @@ border: 1px solid #bababa;
 .alert-success{
 width: 367px;
     margin-left: -14%;
-    height: 585px;
+    height: 591px;
     font-size: 3rem;
     padding: 0%;
     border-radius: 15px;
     display: inline-block;
     align-items: center;
-    margin-top: -10%;
+    margin-top: -19%;
     padding-top: 75%;
     padding-left: 1%;
     justify-content: center;
     text-align: center;
+    z-index: 99;
 }
 
 
@@ -4642,9 +4648,16 @@ position: fixed;
 
 
 .headngform h2{
-font-size: 30px;
+    font-size: 30px;
+    margin-top: 6%;
+    position: absolute;
+    color: white;
+    opacity: 0.9;
 }
 
+label.fullname{
+    color: white;
+}
 
 
 
@@ -4736,9 +4749,9 @@ display: flex;
 }
 
 section #book1.contactForm {
-    z-index: 100000;
+    z-index: 0;
     padding: 85px 50px;
-    background: white;
+    background: transparent;
     padding-left: 50px;
     width: 99%;
     height: 590px;
