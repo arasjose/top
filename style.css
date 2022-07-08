@@ -745,7 +745,7 @@ top: -50px;
   z-index: 100;
   color: white;
   justify-content: center;
-  top: 30px;
+  top: 15%;
 }
 
 .card1 .button1{
@@ -911,7 +911,7 @@ margin-left: 0rem;
 }
 
 .yeldiagrp{
- margin-top: -146%;
+ margin-top: -140%;
     position: absolute;
 }
 
@@ -2728,7 +2728,7 @@ top: 5%;
 }
 
 .card1 .card-content1 {
-    top: 15%;
+    top: 18%;
 }
 
 .yeldiagrp {
