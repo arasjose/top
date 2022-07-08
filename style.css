@@ -808,17 +808,18 @@ align-items: center;
 }
 
 .name-profession1 .profession1{
-  font-size:14px;
-  font-weight: 500;
-  margin-top: 18px;
-  position: absolute;
-  margin-top: 2.5%;
-  margin-left: 2%;
+font-size: 12px;
+    font-weight: 500;
+    margin-top: 21px;
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 2%;
 }
 
 .name-profession1 .price2{
-     font-size: 27px;
+    font-size: 26px;
     font-weight: 550;
+    margin-left: -25%;
 }
 
 
@@ -2728,7 +2729,7 @@ top: 5%;
 }
 
 .card1 .card-content1 {
-    top: 18%;
+    top: 17%;
 }
 
 .yeldiagrp {
@@ -4309,7 +4310,7 @@ section.serbisyo {
 }
 
 #pricing{
-    padding-top: 19%;
+    padding-top: 38%;
     position: relative;
     background: transparent;
     margin-top: 130%;
